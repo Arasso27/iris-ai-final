@@ -1,0 +1,26 @@
+name: project_iris_ai
+description: Personal AI Assistant with voice, offline, and file capabilities
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.0.0
+  speech_to_text: ^6.3.0
+  flutter_tts: ^4.0.0
+  file_picker: ^6.1.1
+  path_provider: ^2.1.2
+  flutter_sound: ^9.2.13
+  shared_preferences: ^2.2.2
+  device_info_plus: ^10.0.1
+  camera: ^0.10.5
+  flutter_spinkit: ^5.2.0
+  http: ^1.2.0
+
+flutter:
+  assets:
+    - assets/iris_icon.png
+    - assets/voice_samples/
